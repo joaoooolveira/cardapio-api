@@ -19,8 +19,8 @@ public class CardapioController {
     private CardapioService service;
     
     @GetMapping
-    public List<CardapioBean> listarItens(){
-        return service.listarItems();
+    public List<CardapioBean> listarCardapio(){
+        return service.listarCardapio();
     }
     
     @PostMapping

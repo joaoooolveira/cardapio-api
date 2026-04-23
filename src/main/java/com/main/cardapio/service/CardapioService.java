@@ -16,7 +16,7 @@ public class CardapioService {
     @Autowired
     private CardapioDAO repository;
     
-    public List<CardapioBean> listarItems() {
+    public List<CardapioBean> listarCardapio() {
         return repository.listarCardapio();
     }
     
